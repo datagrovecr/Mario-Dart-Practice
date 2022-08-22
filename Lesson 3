@@ -1,0 +1,9 @@
+void main() {
+  int day=18;
+  String month="february";
+  int year=1998;
+  print("My birthday is: ");
+  print(day);
+  print(month);
+  print(year);
+}
