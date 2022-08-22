@@ -1,0 +1,9 @@
+void main() {
+  var day=18;
+  var month="february";
+  var year=1998;
+  print("My birthday is: ");
+  print(day);
+  print(month);
+  print(year);
+}
