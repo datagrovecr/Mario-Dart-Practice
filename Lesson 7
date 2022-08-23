@@ -1,0 +1,22 @@
+void main() {
+  // input values
+  num f = 32;
+  num c = 100;
+  
+  // convert
+  num convertedC = (f - 32) / 1.8;
+  num convertedF = 1.8 * c + 32;
+  
+  print("$f degrees Fahrenheit is $convertedC degrees Celsius.");
+  print("$c degrees Celsius is $convertedF degrees Fahrenheit.");
+  
+  // Adding C to k conversion
+  // Adding F to k conversion
+  //K = °C + 273,15
+  // TK = (TF + 459.67) x 5/9
+  
+  num convertCtoK= c +273.15;
+  num convertFtoK= (f+459.67)*5/9;
+  print("$c degrees Celsius is $convertCtoK degrees Kelvin.");
+  print("$f degrees Fahrenheit is $convertFtoK degrees Kelvin.");
+}  
