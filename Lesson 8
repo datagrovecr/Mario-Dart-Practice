@@ -1,0 +1,12 @@
+void main() {
+  num mario = 24;
+  num fabian = 25;
+
+  print("Between Mario and Fabian who is older?");
+  
+  if (mario > fabian) {
+    print("Mario is older.");
+  } else if (fabian > mario) {
+    print("Fabian is older than Mario.");
+  } 
+}
