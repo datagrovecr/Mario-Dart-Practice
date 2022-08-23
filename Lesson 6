@@ -1,0 +1,8 @@
+void main() {
+  String name = "Mario";
+  String lastName = "Araya";
+  print("My name is: ${name + lastName}");
+  print("$name starts with ${name[0]}.");
+  print("$lastName starts with ${lastName[0]}.");
+  print("My name contains ${name.length} letters.");
+}
