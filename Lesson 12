@@ -1,0 +1,16 @@
+void main() {
+  int attackRoll = 7;
+  
+  switch (attackRoll) {
+    case 1:
+    case 2:
+    case 3:
+      print("You missed!");
+      break;
+    case 4:
+    case 5:
+    case 6:
+      print("You hit!");
+      break;
+  }
+}
