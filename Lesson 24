@@ -1,0 +1,16 @@
+void main() {
+  List<int> numbers = [5, 7, -10, 3, 19];
+
+  int total = sum(numbers);
+  print("Total: $total");
+}
+
+int sum(List<int> values) {
+  int total = 0;
+
+  for (int i = 0; i < values.length; i++) {
+    total += values[i];
+  }
+
+  return total;
+}
