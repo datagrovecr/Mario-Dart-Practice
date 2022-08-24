@@ -1,0 +1,12 @@
+void main() {
+  greet();
+  print(sum(4,20));
+}
+
+void greet() {
+  print("Hi!");
+}
+
+num sum(x,b){
+  return x+b;
+}
