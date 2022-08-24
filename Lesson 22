@@ -1,0 +1,9 @@
+void main() {
+  String str = "password";
+  print(str.length);
+  
+    
+  if (str.length<10) {
+    print('The password shoul be longer');
+  }
+}
