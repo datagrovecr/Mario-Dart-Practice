@@ -1,0 +1,13 @@
+void main() {
+  repeatPrint("Hello!", 10);
+}
+
+void repeatPrint(String str, int repetitions) {
+  for (int i = 0; i < repetitions; i++) {
+    if(i%2!=0){
+     print("$i is a odd number");
+  }else{
+      print("$i is a even number");
+    }
+  }
+}
