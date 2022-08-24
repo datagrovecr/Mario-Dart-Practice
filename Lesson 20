@@ -1,0 +1,25 @@
+void main() {
+  print("My grade: ${getGrade(81.5)}");
+}
+
+String getGrade(num score) {
+  String grade;
+  
+  if (score >= 90) {
+    grade = "A";
+    print("Excellent, congrats!");
+  } else if (score >= 80) {
+    grade = "B";
+    print("Not bad, good job!");
+  } else if (score >= 70) {
+    grade = "C";
+    print("I know you can do better, but is ok!");
+  } else if (score >= 60) {
+    grade = "D";
+    print("Lets put more effor in the next one");
+  } else {
+    grade = "F";
+  }
+  
+  return grade;
+}
