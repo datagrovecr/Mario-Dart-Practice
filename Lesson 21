@@ -1,0 +1,10 @@
+int age = 15;
+String name= "Mario";
+
+void main() {
+  int age = 30;
+  String name= "Araya";
+  
+  print(age);
+  print(name);
+}
