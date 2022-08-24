@@ -1,0 +1,10 @@
+void main() {
+  printList(["Dart", "hola", "TypeScript", "C++"]);
+  printList([]);
+}
+
+void printList(List<String> list) {
+  for (String element in list) {
+    print(element);
+  }
+}
