@@ -1,0 +1,12 @@
+void main() {
+  int drinkingAge = 21;
+  int userAge = 20;
+  bool isAdult = userAge >= drinkingAge;
+
+  if (isAdult) {
+    print("Have a beer!");
+  }
+  else {
+    print("Come back in a few years, kid.");
+  }
+}
