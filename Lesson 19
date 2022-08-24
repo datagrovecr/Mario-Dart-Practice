@@ -1,0 +1,13 @@
+void main() {
+  print("First run:");
+  setFlags();
+  print("\nSecond run:");
+  setFlags(hidden: true);
+  print("\nThird run:");
+  setFlags(bold: true);
+}
+
+void setFlags({bool bold = false, bool hidden = false}) {
+  print(bold);
+  print(hidden);
+}
