@@ -1,0 +1,4 @@
+void main() {
+  String headline = " Trump achieve the world peace in the world";
+  print(headline.replaceAll("Trump", "Mario"));
+}
