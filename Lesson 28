@@ -1,0 +1,7 @@
+void main() {
+  const firstName = "Ashton";
+  const lastName = "Kutcher";
+  final String name = "$firstName $lastName";
+
+  print(name);
+}
